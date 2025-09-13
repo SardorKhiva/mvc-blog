@@ -1,0 +1,1 @@
+# Mohirdev da bajarilgan vazifa, MVC orqali blog sayt qilish, MySQL orqali ishlaydi.
