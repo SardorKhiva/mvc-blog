@@ -7,4 +7,7 @@ if (file_exists($pathModel)) {
     echo "Xatolik: models/mainModel.php fayli ulanmadi!";
 }
 
-$menus = getMen
+$menus = getMenuItems();
+//echo "<pre>";
+//print_r($menus);
+//echo "</pre>";

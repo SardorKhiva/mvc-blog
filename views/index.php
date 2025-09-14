@@ -1,7 +1,7 @@
 <?php
 // views/index.php
 
-$pathController = __DIR__ . '/../controllers/Controller.php';
+$pathController = __DIR__ . '/../controllers/mainController.php';
 if (file_exists($pathController)) {
     require $pathController;
 //    echo __FILE__ . "<br>";

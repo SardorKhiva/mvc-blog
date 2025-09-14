@@ -2,11 +2,13 @@
 // index.php
 // --- Asosiy, 1-sahifa ---
 
+$configPath = __DIR__ . '/config.php';
 $indexPath = __DIR__ . '/views/index.php';
 
 // bazaga ulanish
-if (file_exists('config.php')) {
-    require 'config.php';
+if (file_exists($configPath)) {
+    require $configPath;
+//    echo "Loyiha ma'lumotlar bazasiga ulangan <br>"; // MySQL ga ulangan-ulanmaganligini tekshirish
 } else {
     echo "Loyiha ma'lumotlar bazasiga ulanmagan <br>";
 }
