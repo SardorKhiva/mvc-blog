@@ -3,11 +3,13 @@
         <div class="row">
             <div class="col-lg-12">
                 <ul class="social-icons">
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">Behance</a></li>
-                    <li><a href="#">Linkedin</a></li>
-                    <li><a href="#">Dribbble</a></li>
+                    <?php if (!empty($socials)): ?>
+                        <?php foreach ($socials as $social): ?> <!-- name ni yopib icon ni o'zini qoldiramiz -->
+                            <li><a href="<?= $social['url'] ?>" target="_blank"> <i
+                                            class="<?= $social['icon_class'] ?> "></i> <!-- <?= $social['name'] ?> -->
+                                </a></li>
+                        <?php endforeach; ?>
+                    <?php endif; ?>
                 </ul>
             </div>
             <div class="col-lg-12">

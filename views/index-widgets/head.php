@@ -19,11 +19,12 @@
     <link rel="stylesheet" href="/assets/css/fontawesome.css">
     <link rel="stylesheet" href="/assets/css/templatemo-stand-blog.css">
     <link rel="stylesheet" href="/assets/css/owl.css">
+
+    <!-- Font Awesome ni icon lar uchun ulash -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!--
-
     TemplateMo 551 Stand Blog
-
     https://templatemo.com/tm-551-stand-blog
-
     -->
 </head>
