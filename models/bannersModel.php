@@ -6,14 +6,14 @@
 require_once __DIR__ . '/../config.php';
 
 // faol / nofaol constanalarini import qilish
-require_once __DIR__ . '/constants.php';
+require_once __DIR__ . '/../constants.php';
 
 /**
  * Barcha faol postlar va post mualliflar haqidagi ma'lumotlarni oladi
  *
  * @return array Postlar haqidagi assotsiativ massiv
  */
-function getPosts(): array
+function getBanners(): array
 {
     global $pdo;
 

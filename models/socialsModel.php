@@ -7,9 +7,9 @@
 require_once __DIR__ . '/../config.php';
 
 // status holatlari constantalarini import qilish
-require_once __DIR__ . '/statuses.php';
+require_once __DIR__ . '/../constants.php';
 
-function getSocials()
+function getSocials(): array
 {
     global $pdo;
 

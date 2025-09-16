@@ -6,7 +6,7 @@
             <div class="item">
                 <?php if (!empty($posts)): ?>
                 <?php foreach ($posts
-
+// TODO : bannerdagi elementlarni sozlash kerak
                 as $post): ?>
                 <img src="<?= $post['img_url']; ?>" alt="">
                 <div class="item-content">

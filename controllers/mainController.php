@@ -9,9 +9,23 @@ if (file_exists($pathModel)) {
 
 // asosiy controller ga tepadagi menyu va pastdagi ijtimoiy tarmoqlar
 // bilan ishlovchi obyektlarni qo'shish
-$menus = getMenuItems();
-$socials = getSocials();
-$posts = getPosts();
+if (!empty(getMenuItems())) {
+    $menus = getMenuItems();
+} else {
+    echo "Xatolik: menus asosiy controllerga ulanmadi!";
+}
+
+if (!empty(getSocials())) {
+    $socials = getSocials();
+} else {
+    echo "Xatolik: socials asosiy controllerga ulanmadi!";
+}
+
+if (!empty(getBanners())) {
+    $posts = getBanners();
+} else {
+    echo "Xatolik: posts asosiy controllerga ulanmadi!";
+}
 
 //echo "<pre>";
 //print_r($menus);
