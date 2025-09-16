@@ -1,3 +1,5 @@
+# commentlar haqida ma'lumotlar
+
 # DROP DATABASE IF EXISTS `blog_task`;        -- agar baza mavjud bo'lsa o'chirish
 CREATE DATABASE IF NOT EXISTS `blog_task`;
 -- agar baza mavjud bo'lmasa hosil qilish

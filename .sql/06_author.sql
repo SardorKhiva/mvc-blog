@@ -1,4 +1,4 @@
-DROP DATABASE IF EXISTS `blog_task`;        -- agar baza mavjud bo'lsa o'chirish
+# DROP DATABASE IF EXISTS `blog_task`;        -- agar baza mavjud bo'lsa o'chirish
 CREATE DATABASE IF NOT EXISTS `blog_task`;
 -- agar baza mavjud bo'lmasa hosil qilish
 # USE `blog_task`;                            -- hosil qilingan bazadan foydalanish
@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS `blog_task`.`author`
     `name` VARCHAR(50) NOT NULL UNIQUE COMMENT 'post muallifi'
 );
 
-TRUNCATE TABLE `blog_task`.`author`;
+# TRUNCATE TABLE `blog_task`.`author`;
 
 INSERT IGNORE INTO `blog_task`.`author`(`name`)
 VALUES ('Anvar Nazrulloh'),

@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS `blog_task`.`menu`
     `status`   BOOLEAN               DEFAULT 1 COMMENT 'page on/off status'
 );
 
-TRUNCATE TABLE `blog_task`.`menu`;  -- jadvalni tozalash
+# TRUNCATE TABLE `blog_task`.`menu`;  -- jadvalni tozalash
 
 -- jadvalga yozuvlar qo'shish
 INSERT INTO `blog_task`.`menu`(`name`, `position`, `url`, `status`)
@@ -42,3 +42,8 @@ VALUES ('ENG-USA', 'Home page', 1, 'index.php', 1),
 SELECT *
 FROM `blog_task`.`menu`
 WHERE `status` = 1;
+
+/*
+ menu
+
+ */

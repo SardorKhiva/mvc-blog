@@ -11,7 +11,7 @@ CREATE DATABASE IF NOT EXISTS `blog_task`;
 # DROP TABLE IF EXISTS `blog_task`.`social`;
 CREATE TABLE IF NOT EXISTS `blog_task`.`social`
 (
-    `id`         INT AUTO_INCREMENT PRIMARY KEY,
+    `id`         INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     `name`       VARCHAR(50)  NOT NULL UNIQUE COMMENT 'ijtimoiy tarmoq nomi',
     `icon_class` VARCHAR(255) DEFAULT NULL COMMENT 'Font Awesome dan icon lar classi',
     `url`        VARCHAR(255) NOT NULL COMMENT 'tarmoq manzili',
