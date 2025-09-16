@@ -31,11 +31,11 @@
                         <div class="col-lg-12">
                             <div class="blog-post">
                                 <div class="blog-thumb">
-                                    <img src="assets/images/blog-post-01.jpg" alt="">
+                                    <img src="/assets/images/blog-post-01.jpg" alt="">
                                 </div>
                                 <div class="down-content">
                                     <span>Lifestyle</span>
-                                    <a href="post-details.html"><h4>Best Template Website for HTML CSS</h4></a>
+                                    <a href="/post-details.php"><h4>Best Template Website for HTML CSS</h4></a>
                                     <ul class="post-info">
                                         <li><a href="#">Admin</a></li>
                                         <li><a href="#">May 31, 2020</a></li>
@@ -66,11 +66,11 @@
                         <div class="col-lg-12">
                             <div class="blog-post">
                                 <div class="blog-thumb">
-                                    <img src="assets/images/blog-post-02.jpg" alt="">
+                                    <img src="/assets/images/blog-post-02.jpg" alt="">
                                 </div>
                                 <div class="down-content">
                                     <span>Healthy</span>
-                                    <a href="post-details.html"><h4>Etiam id diam vitae lorem dictum</h4></a>
+                                    <a href="/post-details.php"><h4>Etiam id diam vitae lorem dictum</h4></a>
                                     <ul class="post-info">
                                         <li><a href="#">Admin</a></li>
                                         <li><a href="#">May 24, 2020</a></li>
@@ -101,11 +101,11 @@
                         <div class="col-lg-12">
                             <div class="blog-post">
                                 <div class="blog-thumb">
-                                    <img src="assets/images/blog-post-03.jpg" alt="">
+                                    <img src="/assets/images/blog-post-03.jpg" alt="">
                                 </div>
                                 <div class="down-content">
                                     <span>Fashion</span>
-                                    <a href="post-details.html"><h4>Donec tincidunt leo nec magna</h4></a>
+                                    <a href="/post-details.php"><h4>Donec tincidunt leo nec magna</h4></a>
                                     <ul class="post-info">
                                         <li><a href="#">Admin</a></li>
                                         <li><a href="#">May 14, 2020</a></li>
@@ -135,7 +135,7 @@
                         </div>
                         <div class="col-lg-12">
                             <div class="main-button">
-                                <a href="blog.html">View All Posts</a>
+                                <a href="/blog.php">View All Posts</a>
                             </div>
                         </div>
                     </div>
@@ -158,15 +158,15 @@
                                 </div>
                                 <div class="content">
                                     <ul>
-                                        <li><a href="post-details.html">
+                                        <li><a href="/post-details.php">
                                                 <h5>Vestibulum id turpis porttitor sapien facilisis scelerisque</h5>
                                                 <span>May 31, 2020</span>
                                             </a></li>
-                                        <li><a href="post-details.html">
+                                        <li><a href="/post-details.php">
                                                 <h5>Suspendisse et metus nec libero ultrices varius eget in risus</h5>
                                                 <span>May 28, 2020</span>
                                             </a></li>
-                                        <li><a href="post-details.html">
+                                        <li><a href="/post-details.php">
                                                 <h5>Swag hella echo park leggings, shaman cornhole ethical coloring</h5>
                                                 <span>May 14, 2020</span>
                                             </a></li>

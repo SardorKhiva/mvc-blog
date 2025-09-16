@@ -21,10 +21,10 @@ if (file_exists($pathController)) {
 */
 // bazi sahifalarni takror yuklash uchun require ni o'zi ishlatiladi,
 // require_once bilan ishlatilsa faqat 1 marta yuklanadi va keyingi sahifaga yuklanmaydi!
-require 'index-widgets/head.php';
-require 'index-widgets/preloader.php';
-require 'index-widgets/header.php';
-require 'index-widgets/banner.php';
-require 'index-widgets/sections.php';
-require 'index-widgets/footer.php';
-require 'index-widgets/js_scripts.php';
+require __DIR__ . '/index-widgets/head.php';
+require __DIR__ . '/index-widgets/preloader.php';
+require __DIR__ . '/index-widgets/header.php';
+require __DIR__ . '/index-widgets/banner.php';
+require __DIR__ . '/index-widgets/sections.php';
+require __DIR__ . '/index-widgets/footer.php';
+require __DIR__ . '/index-widgets/js_scripts.php';

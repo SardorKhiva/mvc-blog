@@ -3,7 +3,7 @@
 $host = '127.0.0.1';
 $dbname = 'blog_task';
 $user = 'root';
-$password = '1302';
+$password = '';
 $dsn = "mysql: host = $host; dbname = $dbname";
 
 try {
